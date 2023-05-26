@@ -17,7 +17,6 @@ import web3 from "../public/web3.jpg";
 import web4 from "../public/web4.jpg";
 import web5 from "../public/web5.jpg";
 import web6 from "../public/web6.jpg";
-// ...
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,18 +24,15 @@ const Home = () => {
   const cardContents = [
     {
       title: "Elementary",
-
-      image: { src: "/elem.png" },
+      image: { src: "/elem.png", alt: "Elementary School" },
     },
     {
       title: "High School",
-
-      image: { src: "/hs.png" },
+      image: { src: "/hs.png", alt: "High School" },
     },
     {
       title: "College",
-
-      image: { src: "/college.png" },
+      image: { src: "/college.png", alt: "College" },
     },
   ];
 
