@@ -94,7 +94,7 @@ const Home = () => {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={portpfp} layout="fill" objectFit="cover" />
+              <Image src={portpfp} alt="Description of the image" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -162,7 +162,7 @@ const Home = () => {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={hobbies} width={200} height={200} />
+              <Image src={hobbies} alt="Description of the image" width={200} height={200} />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">
                 Hobbies
               </h3>
@@ -174,7 +174,7 @@ const Home = () => {
               <p className="text-gray-800 py-1">Eating lol</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={interests} width={200} height={200} />
+              <Image src={interests} alt="Description of the image" width={200} height={200} />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">
                 Interests
               </h3>
@@ -189,7 +189,7 @@ const Home = () => {
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={more} width={200} height={200} />
+              <Image src={more} alt="Description of the image" width={200} height={200} />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">Etc.</h3>
               <p className="py-2">
                 Etc. Just etc. things.
@@ -214,6 +214,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt="Description of the image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -223,6 +224,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt="Description of the image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -232,6 +234,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="Description of the image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -241,6 +244,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="Description of the image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -250,6 +254,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="Description of the image"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -259,6 +264,7 @@ const Home = () => {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt="Description of the image"
               />
             </div>
           </div>
