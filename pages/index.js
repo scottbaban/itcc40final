@@ -66,8 +66,11 @@ const Home = () => {
               BSCS - 3 Student
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            This is a glimpse into my journey, experiences, and passions. Join me as I share my story and showcase my growth as a student. Let's connect and explore the possibilities together!
+              This is a glimpse into my journey, experiences, and passions. Join
+              me as I share my story and showcase my growth as a student. Let
+              {"'"}s connect and explore the possibilities together!
             </p>
+
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
                 href="https://www.facebook.com/scottybbn/"
@@ -92,7 +95,12 @@ const Home = () => {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={portpfp} alt="Description of the image" layout="fill" objectFit="cover" />
+              <Image
+                src={portpfp}
+                alt="Description of the image"
+                layout="fill"
+                objectFit="cover"
+              />
             </div>
           </div>
         </section>
@@ -150,35 +158,50 @@ const Home = () => {
 
         <section className="mt-20">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Hobbies/Interests/Etc.</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">
+              Hobbies/Interests/Etc.
+            </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Apart from my academic pursuits, I have a diverse range of hobbies and interests that keep me inspired and balanced. 
+              Apart from my academic pursuits, I have a diverse range of hobbies
+              and interests that keep me inspired and balanced.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            From exploring different genres of music to delving into the world of gaming, I find joy in the richness of these experiences.
+              From exploring different genres of music to delving into the world
+              of gaming, I find joy in the richness of these experiences.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={hobbies} alt="Description of the image" width={200} height={200} />
+              <Image
+                src={hobbies}
+                alt="Description of the image"
+                width={200}
+                height={200}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">
                 Hobbies
               </h3>
               <p className="py-2">
-              I find solace and joy in pursuing my hobbies. They allow me to unwind, express myself, and discover new passions.
+                I find solace and joy in pursuing my hobbies. They allow me to
+                unwind, express myself, and discover new passions.
               </p>
               <p className="text-gray-800 py-1">Play Guitar</p>
               <p className="text-gray-800 py-1">Play or Watch Basketball</p>
               <p className="text-gray-800 py-1">Eating lol</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={interests} alt="Description of the image" width={200} height={200} />
+              <Image
+                src={interests}
+                alt="Description of the image"
+                width={200}
+                height={200}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">
                 Interests
               </h3>
               <p className="py-2">
-              Curiosity drives me to explore various interests 
-              and expand my knowledge. 
+                Curiosity drives me to explore various interests and expand my
+                knowledge.
               </p>
 
               <p className="text-gray-800 py-1">Kpop</p>
@@ -187,15 +210,26 @@ const Home = () => {
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={more} alt="Description of the image" width={200} height={200} />
-              <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">Etc.</h3>
-              <p className="py-2">
-                Etc. Just etc. things.
+              <Image
+                src={more}
+                alt="Description of the image"
+                width={200}
+                height={200}
+              />
+              <h3 className="text-lg font-medium pt-8 pb-2  text-teal-600 ">
+                Etc.
+              </h3>
+              <p className="py-2">Etc. Just etc. things.</p>
+              <p className="text-gray-800 py-1">
+                Know a little about Java/JavaScript/Python
               </p>
-              <p className="text-gray-800 py-1">Know a little about Java/JavaScript/Python</p>
               <p className="text-gray-800 py-1">Know a little about business</p>
-              <p className="text-gray-800 py-1">Procrastinates every little thing</p>
-              <p className="text-gray-800 py-1">Part-time Student, Full-time Crammer</p>
+              <p className="text-gray-800 py-1">
+                Procrastinates every little thing
+              </p>
+              <p className="text-gray-800 py-1">
+                Part-time Student, Full-time Crammer
+              </p>
             </div>
           </div>
         </section>
