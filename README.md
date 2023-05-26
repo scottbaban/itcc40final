@@ -1,3 +1,12 @@
+## Screenshots
+## Light Mode
+![Screenshot #1](https://github.com/scottbaban/itcc40final/blob/master/public/screen1.png?raw=true)
+![Screenshot #2](https://github.com/scottbaban/itcc40final/blob/master/public/screen2.png?raw=true)
+![Screenshot #32](https://github.com/scottbaban/itcc40final/blob/master/public/screen3.png?raw=true)
+## Dark Mode
+![Screenshot #1](https://github.com/scottbaban/itcc40final/blob/master/public/dark1.png?raw=true)
+![Screenshot #1](https://github.com/scottbaban/itcc40final/blob/master/public/dark2.png?raw=true)
+![Screenshot #1](https://github.com/scottbaban/itcc40final/blob/master/public/dark3.png?raw=true)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
